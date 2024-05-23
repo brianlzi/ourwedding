@@ -10,7 +10,7 @@
 	<meta property="og:site_name" content="Văn Giảng &amp; Việt Nga">
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Văn Giảng & Việt Nga - Xác nhận tham dự" />
-	<meta property="og:url" content="https://bavanthuha520.iwedding.info/rsvp" />
+	<meta property="og:url" content="https://brianlzi.github.io/ourwedding/rsvp" />
 	<meta property="og:description" content="Để có thể xác nhận tham dự, bạn phải là người nhận được thiệp mời từ cô dâu và chú rể. Vui lòng tìm kiếm thiệp mời theo form bên dưới!" />
 	<meta property="og:image" content="https://cdn.biihappy.com/ziiweb/website/6569f05d9efb4a6ca7006d83/c1f071fa0e0cc9ca7e9ad72d55b8f150.jpeg" />
 	<meta property="og:image:url" content="https://cdn.biihappy.com/ziiweb/website/6569f05d9efb4a6ca7006d83/c1f071fa0e0cc9ca7e9ad72d55b8f150.jpeg" />
@@ -249,7 +249,7 @@
     </main>
 	<script src="rsvp-template/script.js%3Fv=20231217"></script>
 	<script>
-		var webroot = 'https://bavanthuha520.iwedding.info';
+		var webroot = 'https://brianlzi.github.io/ourwedding';
 		var events = JSON.parse('{"6569f05d9efb4a6ca7006d80":"TI\u1ec6C C\u01af\u1edaI NH\u00c0 N\u1eee","6569f05d9efb4a6ca7006d7f":"L\u1ec4 VU QUY","6569f05d9efb4a6ca7006d82":"TI\u1ec6C C\u01af\u1edaI NH\u00c0 NAM","6569f05d9efb4a6ca7006d81":"L\u1ec4 TH\u00c0NH H\u00d4N"}');
 		var is_premium = '0' ;
 		if ($("#search-form").length) {
@@ -269,7 +269,7 @@
                 	$("#search-form").find('button[type="submit"').attr('disabled','disabled');
                     $.ajax({
                         type: "GET",
-                        url: "https://bavanthuha520.iwedding.info/search-guests",
+                        url: "https://brianlzi.github.io/ourwedding/search-guests",
                         cache: false,
                         contentType: false,
                         processData: false,
@@ -412,7 +412,7 @@
                 }).get();
                 $.ajax({
                     type: "POST",
-                    url: "https://bavanthuha520.iwedding.info/free-confirm",
+                    url: "https://brianlzi.github.io/ourwedding/free-confirm",
                     data: {
                         name: name,
                         email: email,
